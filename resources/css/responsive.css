@@ -1,0 +1,125 @@
+/*=======================*/
+/*== 1200px ==*/
+/*========================*/
+
+@media only screen and (min-width: 1200px) {
+}
+
+/*========================*/
+/*== 992px to 1200px LG ==*/
+/*========================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #menu_bar_section .my_menu_list_div ul {
+    margin-left: 66px;
+  }
+  #menu_bar_section .my_menu_list_div ul li {
+    margin-left: 35px;
+  }
+  #content_section .text p {
+    padding-left: 314px;
+  }
+}
+
+/*========================*/
+/*== 768px to 991px MD ==*/
+/*========================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #menu_bar_section .my_menu_list_div ul li {
+    margin: 0 auto;
+  }
+  #menu_bar_section .my_menu_list_div ul li:first-child {
+    margin: 0 auto;
+  }
+  #menu_bar_section form {
+    padding-left: 354px;
+  }
+  #content_section .text p {
+    padding-left: 92px;
+  }
+  #body_section .box_two .img_show_2021 {
+    padding-left: 85px;
+  }
+  #body_section .scroll_box {
+    padding-top: 155px;
+  }
+}
+
+/*========================*/
+/*== 576px to 767px SM ==*/
+/*========================*/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #menu_bar_section .my_menu_list_div ul li {
+    margin: 0 auto;
+  }
+  #menu_bar_section .my_menu_list_div ul li:first-child {
+    margin: 0 auto;
+  }
+  #menu_bar_section form {
+    padding-left: 254px;
+  }
+  #content_section .text p {
+    padding-left: 92px;
+  }
+  #footer_section {
+    text-align: center;
+  }
+  #footer_section .box_2 p {
+    text-align: center;
+  }
+  #body_section .box_two .img_show_2021 {
+    padding-left: 135px;
+  }
+  #body_section .box_two .img_show_2021 .first_img,
+  #body_section .box_two .img_show_2021 .second_img {
+    margin-bottom: 15px;
+  }
+  #body_section .scroll_box {
+    padding-top: 155px;
+  }
+  #content_section {
+    padding-top: 100px;
+  }
+}
+
+/*========================*/
+/*== max-width 575px ==*/
+/*========================*/
+
+@media only screen and (max-width: 575px) {
+  #menu_bar_section .my_menu_list_div ul li {
+    margin: 0 auto;
+  }
+  #menu_bar_section .my_menu_list_div ul li:first-child {
+    margin: 0 auto;
+  }
+  #menu_bar_section form {
+    padding-left: 175px;
+  }
+  #content_section .text p {
+    padding-left: 24px;
+  }
+  #footer_section {
+    text-align: center;
+  }
+  #footer_section .box_2 p {
+    text-align: center;
+  }
+  #body_section .box_two .img_show_2021 {
+    padding-left: 110px;
+  }
+  #body_section .box_two .img_show_2021 .first_img,
+  #body_section .box_two .img_show_2021 .second_img {
+    margin-bottom: 15px;
+  }
+  #body_section .scroll_box {
+    padding-top: 155px;
+  }
+  #content_section {
+    padding-top: 100px;
+  }
+}
+
+/******************************/

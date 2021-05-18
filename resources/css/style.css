@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+/* abel google free font cdn link up */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* montserrat google free font cdn link up */
+
+/* menu section start css */
+#menu_bar_section {
+  background-color: #fff;
+}
+
+#menu_bar_section .my_menu_list_div ul {
+  margin-left: 229px;
+}
+
+#menu_bar_section .my_menu_list_div ul li {
+  margin-left: 60px;
+}
+
+#menu_bar_section .my_menu_list_div ul li:first-child {
+  margin-left: 0;
+}
+
+#menu_bar_section .my_menu_list_div ul li a {
+  color: #909295;
+  font-family: Abel;
+  font-size: 11.7pt;
+  transition: all linear 0.3s;
+}
+
+#menu_bar_section .my_menu_list_div ul li a:hover {
+  color: rgb(24, 23, 23);
+}
+/*
+#menu_bar_section form input {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border: 1px solid rgb(179, 177, 177);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 15px;
+  position: relative;
+}
+*/
+
+#menu_bar_section .search_btn {
+  border: none;
+  background: none;
+  /*position: absolute;*/
+}
+
+#menu_bar_section .search_btn i {
+  /* background: rgb(83, 82, 82);*/
+  color: #909295;
+  height: 40px;
+  width: 30px;
+  line-height: 40px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: 92px;
+  transition: all linear 0.3s;
+}
+
+#menu_bar_section .search_btn i:hover {
+ color: rgb(19, 18, 18);
+}
+/* menu section ends css */
+
+/* body section start css  */
+#body_section {
+}
+
+#body_section .scroll_box {
+  padding-top: 256px;
+}
+
+#body_section .scroll_box ul {
+  list-style-type: none;
+  width: 82px;
+  height: 200px;
+  padding-left: 0;
+  overflow: auto;
+}
+
+#body_section .scroll_box ul li {
+  margin-bottom: 10px;
+}
+
+#body_section .scroll_box ul li a {
+  text-decoration: none;
+  color: #dadada;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#body_section .box_two {
+}
+
+#body_section .box_two .img_show_2021 {
+  padding-left: 224px;
+  padding-top: 50px;
+}
+
+#body_section .box_two .img_show_2021 .first_img,
+#body_section .box_two .img_show_2021 .second_img {
+  float: left;
+  margin-right: 36px;
+  overflow: hidden;
+  position: relative;
+}
+
+#body_section .box_two .img_show_2020 {
+  padding-left: 224px;
+}
+
+#body_section .box_two .img_show_2020 .img_1,
+#body_section .box_two .img_show_2020 .img_2,
+#body_section .box_two .img_show_2020 .img_3 {
+  margin-right: 36px;
+  float: left;
+}
+
+#body_section .box_two .img_show_2020 .img_3,
+#body_section .box_two .img_show_2020 .img_4 {
+  margin-right: 36px;
+  float: left;
+}
+
+
+#body_section .box_two .img_show_2021 .over .overlay {
+  width: 180px;
+  height: 150px;
+  background-color: #00000080;
+  margin-top: -300px;
+  padding: 12px;
+  color: #fff;
+  transition: all linear 0.3s;
+  position: absolute;
+}
+
+#body_section .box_two .img_show_2021 .over .overlay h4 a {
+  color: #fff;
+  font-family: Montserrat-Medium;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#body_section .box_two .img_show_2021 .over .overlay span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#body_section .box_two .img_show_2021 .over:hover .overlay {
+  margin-top: -150px;
+}
+/* body section ends css  */
+
+/* content section start css */
+#content_section .text p {
+  text-align: justify;
+  font-family: HelveticaNeueLight;
+  font-size: 14px;
+  color: #929292;
+  padding-left: 411px;
+  padding-right: 20px;
+}
+
+/* footer top section start css */
+#footer_top_section {
+}
+
+#footer_top_section .footer_social_area {
+}
+
+#footer_top_section .footer_social_area ul {
+  list-style-type: none;
+}
+
+#footer_top_section .footer_social_area ul li {
+  float: left;
+  margin-right: 35px;
+}
+
+#footer_top_section .footer_social_area ul li a i {
+  font-size: 24px;
+  color: #6b6b6b;
+}
+
+#footer_top_section .link_div {
+  float: right;
+}
+
+#footer_top_section .link_div a {
+  font-size: 11.7pt;
+  font-family: Abel;
+  color: #231f20;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+#footer_top_section .link_div .mar_le {
+  padding-left: 90px;
+}
+
+#footer_top_section .link_div .link_1,
+#footer_top_section .link_div .link_2 {
+  border-right: 1px solid rgb(14, 13, 13);
+  padding-right: 18px;
+  padding-left: 7px;
+  text-transform: capitalize;
+}
+
+#footer_top_section .link_div .link_2 {
+  border-right: none;
+}
+
+#footer_top_section .link_div .link_3 {
+  background: #f3f3f4;
+  padding: 10px 43px;
+}
+
+/* footer section start css */
+
+#footer_section {
+  padding: 31px 0px;
+}
+
+#footer_section p {
+  color: #6b6b6b;
+  font-size: 13px;
+}
+
+#footer_section .box_2 p {
+  text-align: right;
+}
+
+/***********************/
